@@ -35,6 +35,7 @@ class ImageGallery extends Component {
 
 ImageGallery.propTypes  = {
   picture: PropTypes.array,
-}
+  openModal: propTypes.func,
+};
 
 export default ImageGallery;

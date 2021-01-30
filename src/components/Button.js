@@ -16,4 +16,8 @@ class Buttton extends Component {
   }
 }
 
+Button.PropTypes = {
+  loadMore: PropTypes.func,
+};
+
 export default Buttton;

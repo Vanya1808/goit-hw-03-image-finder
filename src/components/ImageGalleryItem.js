@@ -19,7 +19,9 @@ class ImageGalleryItem extends Component {
 ImageGalleryItem.propTypes  = {
   webformatURL: PropTypes.string,
   id: PropTypes.number,
-}
+  type: propTypes.string,
+  openModal: propTypes.func,
+};
 
 ImageGalleryItem.propDefault = {
   webformatURL: 'https://cdn.icon-icons.com/icons2/1489/PNG/512/loadingcircles_102612.png'
